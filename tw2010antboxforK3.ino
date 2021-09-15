@@ -1,6 +1,6 @@
 /* TW2010手自一体控制器，支持ACC、串口和手动控制优先级从高到低分别为ACC、串口、手动。10、12、
 15、17波段对应设置pin脚控制，20米默认全部为LOW。出可控波段外，全部按20米输出。未用管脚为0、1、2、3、4 */
-#define DEBUG false    //璋冭瘯寮€鍏?
+#define DEBUG false    //设定调试状态
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
